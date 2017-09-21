@@ -1,0 +1,22 @@
+.footer {
+  display: grid;
+  grid-template-columns: 87px 100px;
+  grid-template-rows: 20px 20px;
+  padding: 15px 0 0 5px;
+}
+
+.footer_copy {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  color: #ccc;
+  font-size: 12px;
+  font-family: "Proxima Nova";
+}
+
+.footer_link {
+  padding: 8px 0 0 0;
+  text-decoration: none;
+  color: #ccc;
+  font-size: 12px;
+  font-family: "Proxima Nova";
+}

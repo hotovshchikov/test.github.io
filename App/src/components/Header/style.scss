@@ -1,0 +1,92 @@
+.header_wrapper {
+  display: flex;
+  justify-content: center;
+  background: #9c3;
+  border-bottom: 2px solid #693;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  width: 970px;
+  height: 67px;
+}
+
+.logo {
+  display: block;
+  margin: 1px 0 0 5px;
+}
+
+.search_panel {
+  display: flex;
+  align-items: center;
+  margin: 3px 0 0 32px;
+}
+
+.search_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 34px;
+  background: #693;
+  border: none;
+  border-radius: 6px 0 0 6px;
+  cursor: pointer;
+}
+
+.search_input {
+  width: 404px;
+  height: 34px;
+  background: #693;
+  border: none;
+  border-radius: 0 6px 6px 0;
+
+  &::placeholder {
+    padding-left: 6px;
+    color: #9c3;
+    font-size: 15px;
+    font-family: 'Proxima Nova';
+  }
+}
+
+.chat_icon,
+.bell_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.chat_icon {
+  margin: 4px 0 0 28px;
+}
+
+.bell_icon {
+  margin: 2px 0 0 15px;
+}
+
+.user_log {
+  display: flex;
+  align-items: center;
+  margin: 1px 0 0 28px;
+}
+
+.user_avatar {
+  display: block;
+  width: 33px;
+  height: 33px;
+  border-radius: 4px;
+}
+
+.user_name {
+  margin: 0 0 0 10px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+  font-family: 'Proxima Nova';
+}

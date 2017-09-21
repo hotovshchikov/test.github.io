@@ -1,0 +1,67 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(64,64,65,0.5);
+  display: flex;
+  z-index: 1;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 250px;
+  background: #fafafa;
+  border-radius: 3px;
+  display: flex;
+  margin: auto;
+  position: relative;
+
+  &__close{
+    cursor: pointer;
+    position: absolute;
+    color: #ccf;
+    top: 10px;
+    right: 10px;
+    font-size: 12px;
+  }
+}
+
+.modal_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title_size,
+.title_size-36,
+.title_size-24 {
+  display: block;
+  color: #333;
+  font-size: 36px;
+  font-family: 'Proxima Nova';
+
+  &-24 {
+    font-size: 24px;
+  }
+}
+
+.modal_status,
+.modal_status-text {
+  display: block;
+  color: #f65656;
+  font-size: 24px;
+  font-family: 'Proxima Nova';
+}
+
+.fa-exclamation-triangle {
+  color: #f65656;
+}
+
+

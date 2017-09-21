@@ -1,0 +1,17 @@
+.content_wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.content_container {
+  display: grid;
+  grid-template-columns: 215px auto 238px;
+  width: 970px;
+}
+
+.content_left,
+.main,
+.content_right {
+  display: flex;
+  flex-direction: column;
+}
