@@ -37,8 +37,9 @@ class Categories extends React.Component {
         this.setState({
           status: response.status,
           statusText: response.statusText,
-          isModalVisible: !this.state.isModalVisible,
+          isModalVisible: this.state.isModalVisible
         });
+        console.log(`status ${this.state.status} statusText ${this.state.statusText} modal ${this.state.isModalVisible}`);
       }})
       .then((data) => {
         this.setState({
